@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+#announcement-bar {
+  background: #ffdd57;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#news-list {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
