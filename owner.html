@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Owner Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Owner Only Panel</h1>
+  <p>Enter password to unlock controls:</p>
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="checkPassword()">Unlock</button>
+
+  <div id="owner-controls" style="display:none;">
+    <h2>Upload News</h2>
+    <textarea id="news-input" placeholder="Write your news..."></textarea>
+    <button onclick="addNews()">Upload News</button>
+
+    <h2>Upload First Announce</h2>
+    <textarea id="announce-input" placeholder="Write your announcement..."></textarea>
+    <button onclick="addAnnouncement()">Upload Announcement</button>
+
+    <p><b>⚠️ Reminder:</b> Copy updated JSON from console and paste it into GitHub → <code>news.json</code> or <code>announcements.json</code>.</p>
+  </div>
+</body>
+</html>
